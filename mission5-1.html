@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>電卓</title>
+</head>
+   
+<body>
+    <table>
+      <!--液晶-->
+      <tr>
+        <td colspan="4">
+			<input type="text" id="result" placeholder="0" disabled>
+		</td>
+      </tr>
+       
+      <tr> 
+		   
+			<td><button onclick="appendToResult('7')">７</button></td>
+			<td><button onclick="appendToResult('8')">８</button></td>
+			<td><button onclick="appendToResult('9')">９</button></td>
+			<td><button onclick="appendToResult('/')">÷</button></td>
+			
+	  </tr>
+
+	  <tr>
+		    <td><button onclick="appendToResult('4')">４</button></td>
+			<td><button onclick="appendToResult('5')">５</button></td>
+			<td><button onclick="appendToResult('6')">６</button></td>	
+			<td><button onclick="appendToResult('*')">×</button></td>
+	 </tr>
+
+	  <tr>
+			<td><button onclick="appendToResult('1')">１</button></td>
+			<td><button onclick="appendToResult('2')">２</button></td>
+			<td><button onclick="appendToResult('3')">３</button></td>
+			<td><button onclick="appendToResult('-')">－</button></td>
+	  </tr>			
+
+	  <tr>
+			<td><button onclick="appendToResult('0')">０</button></td>
+			<td><button onclick="clearResult()">C</button></td>  
+			<td><button onclick="calculateResult()">=</button></td>
+			<td><button onclick="appendToResult('+')">＋</button></td>
+     </tr>
+
+	 <script src="mission5-1.js"></script>
+    </table>
+
+</body>
+
+<tr>
+
+</tr>
